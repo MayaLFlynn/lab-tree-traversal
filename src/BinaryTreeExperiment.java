@@ -12,9 +12,11 @@ public class BinaryTreeExperiment {
     PrintWriter pen = new PrintWriter(System.out, true);
 
     String[] strings = {"aardvark", "billygoat", "chinchilla", "dingo", "emu",
-        "frog", "gnu", "hippo", "iguana", "jackalope", "koala", "llama"};
+        "frog", "gnu", "hippo", "iguana", "jackalope", "koala", "llama", "mouse", "narwhal"};
     BinaryTree<String> tree = new BinaryTree<String>(strings);
 
-    tree.dump(pen);
+    //tree.dump(pen);
+    //tree.elements2(pen);
+    tree.elementsNotRecursive2(pen);
   } // main
 } // class BinaryTreeExperiment
